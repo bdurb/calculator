@@ -1,24 +1,20 @@
 import React, { Component } from 'react';
-import {Container, Row, Col } from 'reactstrap';
+import './Body.css';
 
 export default class Body extends Component {
   constructor(props) {
     super(props);
     this.state = ({
-      display: ''
+      display: '0'
     })
   }
 
 
   render() {
     return (
-      <Container className="App">
-        <Row className="row">
-          <Col className="col-md-8">
-            <h1>Hello</h1>
-          </Col>
-        </Row>
-      </Container>
+      <div className="main">
+        <h1>Do some calculations here</h1>
+      </div>
     );
   }
 } 
