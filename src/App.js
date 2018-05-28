@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
+import Body from './Body';
+import {Container, Row, Col } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="row">
-          <div className="col-md-8">
-            <h1>Hello</h1>
-          </div>
-        </div>
-      </div>
+      <Body/>
     );
   }
 }
